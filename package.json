@@ -1,13 +1,20 @@
 {
-  "name": "mono-template",
+  "name": "@eureka/mono-template",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": "true",
   "keywords": [],
-  "author": "475032801@qq.com",
+  "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.6.4"
+  "description": "",
+  "devDependencies": {
+    "@changesets/cli": "^2.28.1",
+    "@types/node": "^22.13.13",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-packagejson": "^2.5.10",
+    "typescript": "^5.8.2"
+  }
 }
