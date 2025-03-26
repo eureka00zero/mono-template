@@ -1,0 +1,18 @@
+.btn {
+  padding: 8px 10px;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn .btn-primary {
+  background: skyblue;
+}
+.btn .btn-primary:hover {
+  background: lightblue;
+}
+.btn .btn-default {
+  border: 1px solid skyblue;
+}
+.btn .btn-default:hover {
+  color: skyblue;
+}
